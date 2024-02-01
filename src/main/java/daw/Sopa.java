@@ -11,12 +11,18 @@ package daw;
 public class Sopa {
 
     public static void main(String[] args) {
-        SopaLetras sopa = new SopaLetras(10);
+        SopaLetras sopa1 = new SopaLetras(10);
+        SopaLetras sopa2 = new SopaLetras(10);
+        SopaLetras sopa3 = new SopaLetras(10);
+        SopaLetras sopa4 = new SopaLetras(10);
 
-        sopa.colocarPalabraHorizontal(5, 2, "tomas");
-        sopa.colocarPalabraHorizontalInvertida(4, 5, "edu");
-        sopa.colocarPalabraVertical(1, 2, "aiman");
-        sopa.colocarPalabraVerticalInvertida(9, 2, "antonio");
-        System.out.println(sopa);
+        sopa1.colocarPalabraHorizontal(5, 8, "tomas");
+        System.out.println(sopa1);
+        sopa2.colocarPalabraHorizontalInvertida(4, 5, "edu");
+        System.out.println(sopa2);
+        sopa3.colocarPalabraVertical(1, 2, "aiman");
+        System.out.println(sopa3);
+        sopa4.colocarPalabraVerticalInvertida(9, 2, "antonio");
+        System.out.println(sopa4);
     }
 }
